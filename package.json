@@ -1,7 +1,7 @@
 {
-  "name": "phaser3-project-template",
-  "version": "1.1.0",
-  "description": "A Phaser 3 Project Template",
+  "name": "gothic_game",
+  "version": "1.0.0",
+  "description": "Gothic literature class game",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack/prod.js ",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/photonstorm/phaser3-project-template.git"
+    "url": "git+https://github.com/isaackrementsov/gothic_game"
   },
-  "author": "Richard Davey <rdavey@gmail.com> (http://www.photonstorm.com)",
-  "license": "MIT",
+  "author": "Isaac Krementsov",
+  "license": "ISC",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
   "bugs": {
     "url": "https://github.com/photonstorm/phaser3-project-template/issues"
@@ -33,6 +33,8 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "http-server": "^0.12.0",
+    "parcel-bundler": "^1.12.4",
     "phaser": "^3.20.1"
   }
 }

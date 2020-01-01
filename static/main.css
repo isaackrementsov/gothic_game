@@ -1,0 +1,17 @@
+html, body {
+    background: linear-gradient(115deg, #320b86, #9575CD);
+}
+
+canvas {
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.instructions {
+    margin: 15px 10px;
+}
